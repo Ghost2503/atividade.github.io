@@ -1,0 +1,45 @@
+@keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Animação de fade-in  seria nescessario criar o key frame antes entao estude sobre isso */
+        
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: xx-large;
+            color: cornflowerblue;
+            animation: fadeIn 1.0s ease-in;
+        }
+
+       /* quanto maior o max-width, mais espaço a imagem ocupará */
+        img { 
+            margin-bottom: 10px;
+            max-width: 500px;
+            animation: fadeIn 2s ease-in;
+        }
+
+        
+        p {
+            animation: fadeIn 2.5s ease-in;
+        }
+
+        li {
+            animation: fadeIn 2.5s ease-in;
+        }
+        h1 {
+            animation: fadeIn 2.5s ease-in;
+        }
+
+        /* toda vez que precisar colocar um texto no centro da pagina, utilizar style no <h1> ou <p>
+            exemplo: {<h1 style="text-align:center;"} se quiser, adicionar cor, por exemplo, utiliza-se de ";" exemplo: {<p style="text-align: center; color: black"> seu texto </p>
+                */
+li
+    {
+        margin-bottom: 20px;
+    } 
+ul li::marker { color:cornflowerblue}
